@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+.header {
+    background-color: blue;
+    padding: 30px;
+    text-align: center;
+}
+ul li {
+    display:inline-block;
+    color: white;
+    
+}
+.content {
+  background: url(/danielle-cerullo-CQfNt66ttZM-unsplash.jpg) ;
+  background-size: cover; 
+  padding: 300px;
+ 
+  
+}
+.gym {
+    text-align: center;
+    color: white;
+    
+}
+.mid-content {
+padding-top: 100px;
+padding-bottom: 100px;
+}
+.grid-container {
+    display: grid;
+    grid-gap: 0;
+    grid-row: 0;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0;
+    
+    
+   
+}
+.grid-container img {
+    width:100%;
+}
