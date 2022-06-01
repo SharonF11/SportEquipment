@@ -1,8 +1,5 @@
-@import "shared.css";
-@font-face {
-    font-family: Uniform;
-    src: url(dafonttop.com/uniform.font);
-}
+@import "sharedstyles.css";
+
 *{
     padding:0;
     margin:0;
@@ -15,34 +12,55 @@
     text-transform: none;
 }
 .header {
-    background-image: linear-gradient(to right top, #361b85, #311e88, #2b218a, #23238d, #1a268f, #10379c, #0547a8, #0056b3, #0074c4, #008ec6, #00a5bf, #0abab5);
-    padding: 30px;
-    text-align: center;
-    font-family: sans-serif, Uniform;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: 2px;
-    line-height: 40px;
-    text-transform: uppercase;
+    background-color: transparent;
+    position: sticky;
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.45);
+    top:0px;
+    z-index:10;
 }
 .header .logo{
     height: 80px;
     width: 100px;
     margin: 10px 0;
     margin-left: 20px;
-    background: url(./images/FhLogo.png);
+    background: url(../img/FhLogo.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center left;
 }
+
+.header .navLinks{
+    padding: 0px;
+    margin: 0PX;
+    line-height: 100PX;
+}
+.header .navLinks li{
+    margin-right: 25px;
+    font-size: 1.2rem;
+}
+.header .navLinks li::after{
+    content: '';
+  
+}
+
+.header .navLinks li::before{
+    content: '';
+}
+.header .menu{
+    display: none;
+}
+
+.mobileNav{
+    display: none;
+}
+
 ul li {
     display:inline-block;
     color: white;
     
 }
 .content {
-    background: url(/danielle-cerullo-CQfNt66ttZM-unsplash.jpg) ;
+    background-color: blueviolet;
     background-size: cover; 
     padding: 300px;
  

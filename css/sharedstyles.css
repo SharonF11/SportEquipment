@@ -1,3 +1,77 @@
+@import url('https://dafonttop.com/uniform.fon'); 
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Ariel, 'Uniform';
+    color: darkgray;
+    margin: 0;
+}
+.gradientBg{
+    background-image: linear-gradient(to right top, #361b85, #311e88, #2b218a, #23238d, #1a268f, #10379c, #0547a8, #0056b3, #0074c4, #008ec6, #00a5bf, #0abab5);
+}
+.whiteText{
+    color: white;
+}
+
+.blueText{
+    color: #19346b;
+}
+
+.thinText{
+    font-weight: 200;
+}
+
+.regularText{
+    font-weight: 300;
+}
+
+.primaryText{
+    font-weight: 400;
+}
+
+.boldText{
+    font-weight: 600;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+/* DISPLAY CLASSES */
+.floatLeft{
+    float: left;
+}
+
+.floatRight{
+    float: right;
+}
+
+.clearFix{
+    clear: both;
+}
+
+.dInlineBlock{
+    display: inline-block;
+}
+
+.dBlock{
+    display: block;
+}
+
+.dNone{
+    display: none;
+}
+
+.dInline{
+    display: inline;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
 .boldText{
     font-weight: 600;
 }

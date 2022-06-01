@@ -10,16 +10,17 @@
 
     <title>FitHouse Website CA1</title>
   </head>
-  <body>
-    <!-- Header with logo and gradient background -->
+  <body class="gradientBg" onload="bodyLoad()">
+      <!-- Header with logo and gradient background -->
     
-      <div class="Header gradientBg" onload="bodyload()">
+      <div class="Header gradientBg" name="someName">
 
         <div class="floatLeft logo clickable" onclick="alert('Welcome to Fit House!');"></div>
-          <ul class="floatRight navLinks uppercase boldText greyText">
-          <a href="index.html"><li class="dInLineBlock clickable"greyText></li>Home</a>
-         <a href="contact.html"> <li class="dInLineBlock clickable"></li>Contact</a>
-          <a href="about.html"><li class="dInLineBlock clickable"></li>About Us</a>
+       
+        <ul class="floatRight navLinks uppercase boldText greyText">
+            <a href="index.html"><li class="dInLineBlock clickable"greyText>Home</li></a>
+            <a href="contact.html"><li class="dInLineBlock clickable">Contact</li></a>
+            <a href="about.html"><li class="dInLineBlock clickable">About Us</li></a>
         </ul>
 
         <div class="menu floartRight clickable" onclick="yasin()"></div>
@@ -28,9 +29,9 @@
       </div>
       
       <ul class="mobileNav uppercase boldText blueText whiteBg dNone">
-        <li class="clickable">Home</li>
-        <li class="clickable">Contact Us</li>
-        <li class="clickable">About Us</li>
+          <li class="clickable">Home</li>
+          <li class="clickable">Contact Us</li>
+          <li class="clickable">About Us</li>
       </ul>
     
 
@@ -47,7 +48,7 @@
     <div class="grid-container">
       <div>
         <img
-          src="./images /alina-chernysheva-JA2S6sJWleg-unsplash.jpg"
+          src="./images /FH.jpg"
           alt=""
         />
       </div>
