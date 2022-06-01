@@ -1,3 +1,4 @@
+@import "shared.css";
 @font-face {
     font-family: Uniform;
     src: url(dafonttop.com/uniform.font);
@@ -24,6 +25,16 @@
     letter-spacing: 2px;
     line-height: 40px;
     text-transform: uppercase;
+}
+.header .logo{
+    height: 80px;
+    width: 100px;
+    margin: 10px 0;
+    margin-left: 20px;
+    background: url(./images/FhLogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
 }
 ul li {
     display:inline-block;
