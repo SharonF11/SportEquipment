@@ -1,6 +1,6 @@
 @import "sharedstyles.css";
 
-*{
+/* *{
     padding:0;
     margin:0;
     font-family: sans-serif, Uniform;
@@ -10,7 +10,7 @@
     letter-spacing: 1.5px;
     line-height: 36px;
     text-transform: none;
-}
+} */
 .header {
     background-color: transparent;
     position: sticky;
@@ -23,7 +23,7 @@
     width: 100px;
     margin: 10px 0;
     margin-left: 20px;
-    background: url(../img/FhLogo.jpg);
+    background:  url(../img/FhLogo.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center left;
