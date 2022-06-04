@@ -1,0 +1,58 @@
+@import "sharedStyles.css";
+
+.header{
+    position: sticky;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.45);
+    top: 0px;
+    z-index: 10;
+}
+
+.header .logo{
+    height: 80px;
+    width: 100px;
+    margin: 10px 0;
+    margin-left: 20px;
+    background: url(../img/FhLogo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.header .menu{
+    height: 50px; /*Added for mobile*/
+    width: 60px; /*Added for mobile*/
+    margin: 25px; /*Added for mobile*/
+    margin-right: 20px; /*Added for mobile*/
+    background: url(../img/menu.png); /*Added for mobile*/
+    background-size: contain; /*Added for mobile*/
+    background-repeat: no-repeat; /*Added for mobile*/
+    background-position: center left; /*Added for mobile*/
+}
+
+.header .navLinks{
+    padding: 0px;
+    margin: 0px;
+    line-height: 100px;
+    display: none; /*Added for mobile*/
+}
+
+.header .navLinks li{
+    margin-right: 25px;
+    font-size: 1.2rem;
+}
+
+.mobileNav{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    position: fixed;
+    top: 100px;
+    z-index: 10;
+    width: 100%;
+}
+
+.mobileNav li{
+    line-height: 40px;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}

@@ -1,0 +1,139 @@
+@import url('https://dafonttop.com/uniform.font'); 
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Unifrom', 'Helvetica', sans-serif; 
+    color: #1d1d1d;
+    margin: 0;
+}
+
+/* GENERIC CLASSES */
+.gradientBg{
+    background-color: black;
+}
+
+.shadow{
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.45);
+}
+
+/* TEXT CLASSES */
+.whiteText{
+    color: white;
+}
+
+.blueText{
+    color: #19346b;
+}
+
+.thinText{
+    font-weight: 200;
+}
+
+.regularText{
+    font-weight: 300;
+}
+
+.primaryText{
+    font-weight: 400;
+}
+
+.boldText{
+    font-weight: 600;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+/* DISPLAY CLASSES */
+.floatLeft{
+    float: left;
+}
+
+.floatRight{
+    float: right;
+}
+
+.clearFix{
+    clear: both;
+}
+
+.dInlineBlock{
+    display: inline-block;
+}
+
+.dBlock{
+    display: block;
+}
+
+.dNone{
+    display: none;
+}
+
+.dInline{
+    display: inline;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.card{
+    border-radius: 8px;
+    background: white;
+    padding: 10px;
+    max-height: 500px;
+}
+
+.card .card-header{
+    position: sticky;
+    z-index: 1;
+    top: 10px;
+    margin: 0px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card .card-body{
+    max-height: calc(100% - 40px);
+    overflow: auto;
+    text-align: justify;
+    font-size: 14px;
+}
+/* Header CSS */
+.header{
+    position: sticky;
+    /* height: 100px; */
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.45);
+    top: 0px;
+    z-index: 10;
+}
+
+.header .logo{
+    height: 80px;
+    width: 100px;
+    margin: 10px 0;
+    margin-left: 20px;
+    background: url(../img/FhLogo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.header .navLinks{
+    padding: 0px;
+    margin: 0px;
+    line-height: 100px;
+}
+
+.header .navLinks li{
+    margin-right: 25px;
+    font-size: 1.2rem;
+}
+.header .menu{
+    display: none;
+}
