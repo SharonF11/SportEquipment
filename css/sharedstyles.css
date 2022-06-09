@@ -36,6 +36,7 @@ body{
 
 .boldText{
     font-weight: 600;
+   
 }
 
 .uppercase{
@@ -57,6 +58,7 @@ body{
 
 .dInlineBlock{
     display: inline-block;
+    color: whitesmoke;
 }
 
 .dBlock{
